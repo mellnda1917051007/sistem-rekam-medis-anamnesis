@@ -1,0 +1,6 @@
+CRITICAL - 2024-04-21 20:40:40 --> Cannot use App\RCore\Setting_Petugas as Setting_Petugas because the name is already in use
+in APPPATH\Views\tmp\superial_petugas\index.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-21 20:41:47 --> Cannot redeclare App\RCore\sambutan() (previously declared in C:\xampp74\htdocs\databases_2024_melinda_rekam_medis\app\RCore\Setting.php:201)
+in APPPATH\RCore\Setting_Petugas.php on line 198.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

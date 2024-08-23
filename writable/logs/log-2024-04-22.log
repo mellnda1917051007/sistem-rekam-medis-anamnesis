@@ -1,0 +1,99 @@
+CRITICAL - 2024-04-22 00:17:51 --> Cannot redeclare App\RCore\sambutan() (previously declared in C:\xampp74\htdocs\databases_2024_melinda_rekam_medis\app\RCore\Setting_Keluarga.php:200)
+in APPPATH\RCore\Setting.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-22 01:09:34 --> Cannot redeclare App\RCore\sambutan() (previously declared in C:\xampp74\htdocs\databases_2024_melinda_rekam_medis\app\RCore\Setting_Keluarga.php:200)
+in APPPATH\RCore\Setting.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-22 01:10:44 --> Cannot redeclare App\RCore\sambutan() (previously declared in C:\xampp74\htdocs\databases_2024_melinda_rekam_medis\app\RCore\Setting_Keluarga.php:200)
+in APPPATH\RCore\Setting.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-22 01:16:21 --> Cannot redeclare App\RCore\sambutan() (previously declared in C:\xampp74\htdocs\databases_2024_melinda_rekam_medis\app\RCore\Setting_Keluarga.php:200)
+in APPPATH\RCore\Setting.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-22 01:50:04 --> Undefined index: id_petugas
+in APPPATH\Views\admin\data_rekam_medis\tampil.php on line 114.
+ 1 APPPATH\Views\admin\data_rekam_medis\tampil.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_petugas', 'APPPATH\\Views\\admin\\data_rekam_medis\\tampil.php', 114, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_rekam_medis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_rekam_medis/tampil', [], true)
+ 5 APPPATH\Controllers\admin\DataRekamMedis.php(28): view('admin/data_rekam_medis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataRekamMedis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataRekamMedis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 04:47:34 --> Undefined index: nama_tenaga_medis
+in APPPATH\Views\petugas\data_rekam_medis\tampil.php on line 112.
+ 1 APPPATH\Views\petugas\data_rekam_medis\tampil.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_tenaga_medis', 'APPPATH\\Views\\petugas\\data_rekam_medis\\tampil.php', 112, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\petugas\\data_rekam_medis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_rekam_medis/tampil', [], true)
+ 5 APPPATH\Controllers\petugas\DataRekamMedis.php(28): view('petugas/data_rekam_medis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataRekamMedis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataRekamMedis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 21:12:30 --> Undefined variable: data_rekam_medis
+in APPPATH\Views\admin\data_anamnesis\tambah.php on line 124.
+ 1 APPPATH\Views\admin\data_anamnesis\tambah.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_rekam_medis', 'APPPATH\\Views\\admin\\data_anamnesis\\tambah.php', 124, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_anamnesis\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_anamnesis/tambah', [], true)
+ 5 APPPATH\Controllers\admin\DataAnamnesis.php(53): view('admin/data_anamnesis/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataAnamnesis->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-22 21:27:19 --> Table 'databases_2024_melinda_rekam_medis.pasien' doesn't exist
+CRITICAL - 2024-04-22 21:27:19 --> Table 'databases_2024_melinda_rekam_medis.pasien' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from pasien where id_pasien = \'PAS20240419093744178\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('select * from pasien where id_pasien = \'PAS20240419093744178\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from pasien where id_pasien = \'PAS20240419093744178\'')
+ 4 APPPATH\Helpers\all_helper.php(393): CodeIgniter\Database\BaseConnection->query('select * from pasien where id_pasien = \'PAS20240419093744178\'')
+ 5 APPPATH\Views\admin\data_berita_acara\tampil.php(107): baca_database('ROOTPATH\\public', 'nama_lengkap', 'select * from pasien where id_pasien = \'PAS20240419093744178\'', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_berita_acara\\tampil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_berita_acara/tampil', [], true)
+ 9 APPPATH\Controllers\admin\DataBeritaAcara.php(28): view('admin/data_berita_acara/tampil', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataBeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataBeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-22 21:28:00 --> Table 'databases_2024_melinda_rekam_medis.pasien' doesn't exist
+CRITICAL - 2024-04-22 21:28:00 --> Table 'databases_2024_melinda_rekam_medis.pasien' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from pasien where id_pasien = \'PAS20240419093744178\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('select * from pasien where id_pasien = \'PAS20240419093744178\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from pasien where id_pasien = \'PAS20240419093744178\'')
+ 4 APPPATH\Helpers\all_helper.php(393): CodeIgniter\Database\BaseConnection->query('select * from pasien where id_pasien = \'PAS20240419093744178\'')
+ 5 APPPATH\Views\admin\data_berita_acara\tampil.php(107): baca_database('ROOTPATH\\public', 'nama_lengkap', 'select * from pasien where id_pasien = \'PAS20240419093744178\'', 'ROOTPATH\\public')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_berita_acara\\tampil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_berita_acara/tampil', [], true)
+ 9 APPPATH\Controllers\admin\DataBeritaAcara.php(28): view('admin/data_berita_acara/tampil', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataBeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataBeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 23:29:12 --> Undefined index: nama_tenaga_medis
+in APPPATH\Views\keluarga\data_rekam_medis\tampil.php on line 112.
+ 1 APPPATH\Views\keluarga\data_rekam_medis\tampil.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_tenaga_medis', 'APPPATH\\Views\\keluarga\\data_rekam_medis\\tampil.php', 112, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\keluarga\\data_rekam_medis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('keluarga/data_rekam_medis/tampil', [], true)
+ 5 APPPATH\Controllers\keluarga\DataRekamMedis.php(28): view('keluarga/data_rekam_medis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\DataRekamMedis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\DataRekamMedis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 23:31:42 --> Undefined index: nama_tenaga_medis
+in APPPATH\Views\keluarga\data_rekam_medis\tampil.php on line 112.
+ 1 APPPATH\Views\keluarga\data_rekam_medis\tampil.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_tenaga_medis', 'APPPATH\\Views\\keluarga\\data_rekam_medis\\tampil.php', 112, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\keluarga\\data_rekam_medis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('keluarga/data_rekam_medis/tampil', [], true)
+ 5 APPPATH\Controllers\keluarga\DataRekamMedis.php(28): view('keluarga/data_rekam_medis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\DataRekamMedis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\DataRekamMedis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,6 @@
+CRITICAL - 2024-04-19 23:04:49 --> syntax error, unexpected '*', expecting end of file
+in APPPATH\Config\routes\admin.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(758): require()
+ 2 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

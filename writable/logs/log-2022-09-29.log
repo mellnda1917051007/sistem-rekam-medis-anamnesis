@@ -1,0 +1,36 @@
+CRITICAL - 2022-09-29 02:22:16 --> Undefined index: nama
+in APPPATH/Views/admin/data_admin/detail.php on line 48.
+ 1 APPPATH/Views/admin/data_admin/detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/data_admin/detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/DataAdmin.php(114): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\DataAdmin->detail()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-29 02:22:24 --> Undefined index: nama
+in APPPATH/Views/admin/data_admin/edit.php on line 52.
+ 1 APPPATH/Views/admin/data_admin/edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/data_admin/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/DataAdmin.php(71): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\DataAdmin->edit()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-29 02:23:05 --> Undefined index: nama
+in APPPATH/Views/admin/data_admin/edit.php on line 52.
+ 1 APPPATH/Views/admin/data_admin/edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/data_admin/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/DataAdmin.php(71): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\DataAdmin->edit()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

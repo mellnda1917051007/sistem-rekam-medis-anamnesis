@@ -1,0 +1,6 @@
+CRITICAL - 2024-08-08 08:03:38 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-08-08 08:32:30 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()

@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<humans>
+    <!-- MASTER MENU -->
+    <menu>
+        <id>A</id>
+        <s>0</s>
+        <t>s</t>
+        <i>fa fa-home</i>
+        <n>Home</n>
+        <l>../home/index.php</l>
+    </menu>
+    <menu>
+        <id>B</id>
+        <s>0</s>
+        <t>m</t>
+        <i>fa fa-edit</i>
+        <n>Master Data</n>
+        <l>#</l>
+    </menu>
+    <menu>
+        <id>C</id>
+        <s>0</s>
+        <t>m</t>
+        <i>fa fa-calendar</i>
+        <n>Laporan</n>
+        <l>#</l>
+    </menu>
+
+
+
+    <!-- SUB MENU -->
+    <menu>
+        <id>B1</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Admin</n>
+        <l>../data_admin/index.php</l>
+    </menu>
+    <menu>
+        <id>B2</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Anamnesis</n>
+        <l>../data_anamnesis/index.php</l>
+    </menu>
+    <menu>
+        <id>B3</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Anggota Keluarga</n>
+        <l>../data_anggota_keluarga/index.php</l>
+    </menu>
+    <menu>
+        <id>B4</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Berita Acara</n>
+        <l>../data_berita_acara/index.php</l>
+    </menu>
+    <menu>
+        <id>B5</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Berita Acara Pengiriman Penderita Pulang</n>
+        <l>../data_berita_acara_pengiriman_penderita_pulang/index.php</l>
+    </menu>
+    <menu>
+        <id>B6</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Pasien</n>
+        <l>../data_pasien/index.php</l>
+    </menu>
+    <menu>
+        <id>B7</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Pembayaran</n>
+        <l>../data_pembayaran/index.php</l>
+    </menu>
+    <menu>
+        <id>B8</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Petugas</n>
+        <l>../data_petugas/index.php</l>
+    </menu>
+    <menu>
+        <id>B9</id>
+        <s>B</s>
+        <t>sm</t>
+        <i>fa fa-edit</i>
+        <n>Data Rekam Medis</n>
+        <l>../data_rekam_medis/index.php</l>
+    </menu>
+    <!-- SUB MENU -->
+    <menu>
+        <id>C1</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Admin</n>
+        <l>../data_admin/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C2</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Anamnesis</n>
+        <l>../data_anamnesis/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C3</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Anggota Keluarga</n>
+        <l>../data_anggota_keluarga/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C4</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Berita Acara</n>
+        <l>../data_berita_acara/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C5</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Berita Acara Pengiriman Penderita Pulang</n>
+        <l>../data_berita_acara_pengiriman_penderita_pulang/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C6</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Pasien</n>
+        <l>../data_pasien/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C7</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Pembayaran</n>
+        <l>../data_pembayaran/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C8</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Petugas</n>
+        <l>../data_petugas/index.php?input=cetak</l>
+    </menu>
+    <menu>
+        <id>C9</id>
+        <s>C</s>
+        <t>sm</t>
+        <i>fa fa-calendar</i>
+        <n>Data Rekam Medis</n>
+        <l>../data_rekam_medis/index.php?input=cetak</l>
+    </menu>
+    <!-- SUB MENU -->
+</humans>

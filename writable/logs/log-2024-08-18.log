@@ -1,0 +1,227 @@
+CRITICAL - 2024-08-18 10:24:43 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\admin\data_anamnesis\edit.php on line 123.
+ 1 APPPATH\Views\admin\data_anamnesis\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\admin\\data_anamnesis\\edit.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_anamnesis\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_anamnesis/edit', [], true)
+ 5 APPPATH\Controllers\admin\DataAnamnesis.php(86): view('admin/data_anamnesis/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataAnamnesis->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 10:25:03 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\admin\data_anamnesis\edit.php on line 123.
+ 1 APPPATH\Views\admin\data_anamnesis\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\admin\\data_anamnesis\\edit.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_anamnesis\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_anamnesis/edit', [], true)
+ 5 APPPATH\Controllers\admin\DataAnamnesis.php(86): view('admin/data_anamnesis/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataAnamnesis->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 10:26:47 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\admin\data_anamnesis\edit.php on line 123.
+ 1 APPPATH\Views\admin\data_anamnesis\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\admin\\data_anamnesis\\edit.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_anamnesis\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_anamnesis/edit', [], true)
+ 5 APPPATH\Controllers\admin\DataAnamnesis.php(86): view('admin/data_anamnesis/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataAnamnesis->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 10:35:45 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\petugas\data_anamnesis\tampil.php on line 117.
+ 1 APPPATH\Views\petugas\data_anamnesis\tampil.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\petugas\\data_anamnesis\\tampil.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\petugas\\data_anamnesis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_anamnesis/tampil', [], true)
+ 5 APPPATH\Controllers\petugas\DataAnamnesis.php(28): view('petugas/data_anamnesis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataAnamnesis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 10:44:47 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\admin\data_anamnesis\edit.php on line 123.
+ 1 APPPATH\Views\admin\data_anamnesis\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\admin\\data_anamnesis\\edit.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\data_anamnesis\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/data_anamnesis/edit', [], true)
+ 5 APPPATH\Controllers\admin\DataAnamnesis.php(86): view('admin/data_anamnesis/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\admin\DataAnamnesis->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 10:57:32 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\petugas\data_anamnesis\tampil.php on line 117.
+ 1 APPPATH\Views\petugas\data_anamnesis\tampil.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\petugas\\data_anamnesis\\tampil.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\petugas\\data_anamnesis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_anamnesis/tampil', [], true)
+ 5 APPPATH\Controllers\petugas\DataAnamnesis.php(28): view('petugas/data_anamnesis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataAnamnesis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 11:14:36 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\petugas\data_anamnesis\tampil.php on line 117.
+ 1 APPPATH\Views\petugas\data_anamnesis\tampil.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\petugas\\data_anamnesis\\tampil.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\petugas\\data_anamnesis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_anamnesis/tampil', [], true)
+ 5 APPPATH\Controllers\petugas\DataAnamnesis.php(28): view('petugas/data_anamnesis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataAnamnesis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 11:50:40 --> Undefined array key "id_rekam_medis"
+in APPPATH\Views\petugas\data_anamnesis\edit.php on line 132.
+ 1 APPPATH\Views\petugas\data_anamnesis\edit.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rekam_medis"', 'APPPATH\\Views\\petugas\\data_anamnesis\\edit.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\petugas\\data_anamnesis\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_anamnesis/edit', [], true)
+ 5 APPPATH\Controllers\petugas\DataAnamnesis.php(85): view('petugas/data_anamnesis/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataAnamnesis->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataAnamnesis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2024-08-18 11:52:00 --> Unknown column 'id_rekam_medis' in 'field list'
+CRITICAL - 2024-08-18 11:52:00 --> Unknown column 'id_rekam_medis' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `data_anamnesis` SET `keadaan_baik` = \'Tidak baik\', `kesadaran` = \'Baik\', `refleksi_pupil_kanan` = \'Baik\', `refleksi_pupil_kiri` = \'Baik\', `tekanan_darah` = \'90/60\', `nadi` = \'Baik\', `pernapasan` = \'Baik\', `suhu` = \'40\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240817035518969\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_anamnesis` SET `keadaan_baik` = \'Tidak baik\', `kesadaran` = \'Baik\', `refleksi_pupil_kanan` = \'Baik\', `refleksi_pupil_kiri` = \'Baik\', `tekanan_darah` = \'90/60\', `nadi` = \'Baik\', `pernapasan` = \'Baik\', `suhu` = \'40\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240817035518969\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_anamnesis` SET `keadaan_baik` = \'Tidak baik\', `kesadaran` = \'Baik\', `refleksi_pupil_kanan` = \'Baik\', `refleksi_pupil_kiri` = \'Baik\', `tekanan_darah` = \'90/60\', `nadi` = \'Baik\', `pernapasan` = \'Baik\', `suhu` = \'40\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240817035518969\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `data_anamnesis` SET `keadaan_baik` = :keadaan_baik:, `kesadaran` = :kesadaran:, `refleksi_pupil_kanan` = :refleksi_pupil_kanan:, `refleksi_pupil_kiri` = :refleksi_pupil_kiri:, `tekanan_darah` = :tekanan_darah:, `nadi` = :nadi:, `pernapasan` = :pernapasan:, `suhu` = :suhu:, `id_rekam_medis` = :id_rekam_medis:
+WHERE `data_anamnesis`.`id_anamnesis` IN :data_anamnesis.id_anamnesis:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Repo\petugas\DataAnamnesisRepo.php(54): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\petugas\DataAnamnesis.php(77): App\Repo\petugas\DataAnamnesisRepo::ubah([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataAnamnesis->edit()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataAnamnesis))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2024-08-18 11:52:59 --> Unknown column 'id_rekam_medis' in 'field list'
+CRITICAL - 2024-08-18 11:52:59 --> Unknown column 'id_rekam_medis' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `data_anamnesis` SET `keadaan_baik` = \'Tidak baik\', `kesadaran` = \'Baik\', `refleksi_pupil_kanan` = \'Baik\', `refleksi_pupil_kiri` = \'Baik\', `tekanan_darah` = \'90/60\', `nadi` = \'Baik\', `pernapasan` = \'Baik\', `suhu` = \'40\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240817035518969\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_anamnesis` SET `keadaan_baik` = \'Tidak baik\', `kesadaran` = \'Baik\', `refleksi_pupil_kanan` = \'Baik\', `refleksi_pupil_kiri` = \'Baik\', `tekanan_darah` = \'90/60\', `nadi` = \'Baik\', `pernapasan` = \'Baik\', `suhu` = \'40\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240817035518969\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_anamnesis` SET `keadaan_baik` = \'Tidak baik\', `kesadaran` = \'Baik\', `refleksi_pupil_kanan` = \'Baik\', `refleksi_pupil_kiri` = \'Baik\', `tekanan_darah` = \'90/60\', `nadi` = \'Baik\', `pernapasan` = \'Baik\', `suhu` = \'40\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240817035518969\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `data_anamnesis` SET `keadaan_baik` = :keadaan_baik:, `kesadaran` = :kesadaran:, `refleksi_pupil_kanan` = :refleksi_pupil_kanan:, `refleksi_pupil_kiri` = :refleksi_pupil_kiri:, `tekanan_darah` = :tekanan_darah:, `nadi` = :nadi:, `pernapasan` = :pernapasan:, `suhu` = :suhu:, `id_rekam_medis` = :id_rekam_medis:
+WHERE `data_anamnesis`.`id_anamnesis` IN :data_anamnesis.id_anamnesis:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Repo\petugas\DataAnamnesisRepo.php(54): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\petugas\DataAnamnesis.php(77): App\Repo\petugas\DataAnamnesisRepo::ubah([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataAnamnesis->edit()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataAnamnesis))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2024-08-18 11:54:02 --> Unknown column 'id_rekam_medis' in 'field list'
+CRITICAL - 2024-08-18 11:54:02 --> Unknown column 'id_rekam_medis' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `data_anamnesis` SET `keadaan_baik` = \'k\', `kesadaran` = \'b\', `refleksi_pupil_kanan` = \'b\', `refleksi_pupil_kiri` = \'b\', `tekanan_darah` = \'b\', `nadi` = \'b\', `pernapasan` = \'b\', `suhu` = \'b\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240818115317608\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_anamnesis` SET `keadaan_baik` = \'k\', `kesadaran` = \'b\', `refleksi_pupil_kanan` = \'b\', `refleksi_pupil_kiri` = \'b\', `tekanan_darah` = \'b\', `nadi` = \'b\', `pernapasan` = \'b\', `suhu` = \'b\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240818115317608\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_anamnesis` SET `keadaan_baik` = \'k\', `kesadaran` = \'b\', `refleksi_pupil_kanan` = \'b\', `refleksi_pupil_kiri` = \'b\', `tekanan_darah` = \'b\', `nadi` = \'b\', `pernapasan` = \'b\', `suhu` = \'b\', `id_rekam_medis` = NULL
+WHERE `data_anamnesis`.`id_anamnesis` IN (\'ANA20240818115317608\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `data_anamnesis` SET `keadaan_baik` = :keadaan_baik:, `kesadaran` = :kesadaran:, `refleksi_pupil_kanan` = :refleksi_pupil_kanan:, `refleksi_pupil_kiri` = :refleksi_pupil_kiri:, `tekanan_darah` = :tekanan_darah:, `nadi` = :nadi:, `pernapasan` = :pernapasan:, `suhu` = :suhu:, `id_rekam_medis` = :id_rekam_medis:
+WHERE `data_anamnesis`.`id_anamnesis` IN :data_anamnesis.id_anamnesis:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Repo\petugas\DataAnamnesisRepo.php(54): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\petugas\DataAnamnesis.php(77): App\Repo\petugas\DataAnamnesisRepo::ubah([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataAnamnesis->edit()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataAnamnesis))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 12:00:06 --> Undefined array key "id_Anamnesis"
+in APPPATH\Views\petugas\data_rekam_medis\tampil.php on line 112.
+ 1 APPPATH\Views\petugas\data_rekam_medis\tampil.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Anamnesis"', 'APPPATH\\Views\\petugas\\data_rekam_medis\\tampil.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\petugas\\data_rekam_medis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_rekam_medis/tampil', [], true)
+ 5 APPPATH\Controllers\petugas\DataRekamMedis.php(28): view('petugas/data_rekam_medis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataRekamMedis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataRekamMedis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 12:00:24 --> Undefined array key "id_Anamnesis"
+in APPPATH\Views\petugas\data_rekam_medis\tampil.php on line 112.
+ 1 APPPATH\Views\petugas\data_rekam_medis\tampil.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Anamnesis"', 'APPPATH\\Views\\petugas\\data_rekam_medis\\tampil.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\petugas\\data_rekam_medis\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_rekam_medis/tampil', [], true)
+ 5 APPPATH\Controllers\petugas\DataRekamMedis.php(28): view('petugas/data_rekam_medis/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataRekamMedis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataRekamMedis))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 12:01:47 --> Class "app\repo\admin\DataRekamMedisrepo" not found
+in APPPATH\Views\petugas\data_rekam_medis\edit.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_rekam_medis/edit', [], true)
+ 4 APPPATH\Controllers\petugas\DataRekamMedis.php(77): view('petugas/data_rekam_medis/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataRekamMedis->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataRekamMedis))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 12:01:51 --> Class "app\repo\admin\DataRekamMedisrepo" not found
+in APPPATH\Views\petugas\data_rekam_medis\edit.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_rekam_medis/edit', [], true)
+ 4 APPPATH\Controllers\petugas\DataRekamMedis.php(77): view('petugas/data_rekam_medis/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataRekamMedis->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataRekamMedis))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 12:25:15 --> Undefined constant "_FILE_"
+in APPPATH\Views\petugas\data_rekam_medis\tambah.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_rekam_medis/tambah', [], true)
+ 4 APPPATH\Controllers\petugas\DataRekamMedis.php(48): view('petugas/data_rekam_medis/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataRekamMedis->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataRekamMedis))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2024-08-18 12:26:16 --> Undefined constant "_FILE_"
+in APPPATH\Views\petugas\data_rekam_medis\tambah.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('petugas/data_rekam_medis/tambah', [], true)
+ 4 APPPATH\Controllers\petugas\DataRekamMedis.php(48): view('petugas/data_rekam_medis/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\petugas\DataRekamMedis->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\petugas\DataRekamMedis))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

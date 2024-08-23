@@ -1,0 +1,108 @@
+CRITICAL - 2024-04-23 02:13:27 --> Invalid file: tmp//login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tmp//login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tmp//login', [], true)
+ 3 APPPATH\Controllers\keluarga\Login.php(14): view('tmp//login')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 02:14:01 --> Invalid file: tmp/tmp 4/login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tmp/tmp 4/login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tmp/tmp 4/login', [], true)
+ 3 APPPATH\Controllers\keluarga\Login.php(14): view('tmp/tmp 4/login')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 02:14:24 --> Cannot redeclare App\RCore\sambutan() (previously declared in C:\xampp74\htdocs\databases_2024_melinda_rekam_medis\app\RCore\Setting_Keluarga.php:200)
+in APPPATH\RCore\Setting.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-23 02:17:15 --> Cannot redeclare App\RCore\sambutan() (previously declared in C:\xampp74\htdocs\databases_2024_melinda_rekam_medis\app\RCore\Setting_Keluarga.php:200)
+in APPPATH\RCore\Setting.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-23 21:14:04 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\all_helper.php on line 319.
+ 1 APPPATH\Helpers\all_helper.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\all_helper.php', 319, [...])
+ 2 APPPATH\Views\home\daftar.php(86): combo_enum('data_pelanggan', 'jenis_kelamin', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\daftar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/daftar', [], true)
+ 6 APPPATH\Controllers\keluarga\Daftar.php(40): view('home/daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Daftar->daftar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Daftar))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 21:18:47 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\all_helper.php on line 319.
+ 1 APPPATH\Helpers\all_helper.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\all_helper.php', 319, [...])
+ 2 APPPATH\Views\home\daftar.php(86): combo_enum('data_pelanggan', 'jenis_kelamin', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\daftar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/daftar', [], true)
+ 6 APPPATH\Controllers\keluarga\Daftar.php(40): view('home/daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Daftar->daftar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Daftar))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 21:18:48 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\all_helper.php on line 319.
+ 1 APPPATH\Helpers\all_helper.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\all_helper.php', 319, [...])
+ 2 APPPATH\Views\home\daftar.php(86): combo_enum('data_pelanggan', 'jenis_kelamin', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\daftar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/daftar', [], true)
+ 6 APPPATH\Controllers\keluarga\Daftar.php(40): view('home/daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Daftar->daftar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Daftar))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 21:19:16 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\all_helper.php on line 319.
+ 1 APPPATH\Helpers\all_helper.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\all_helper.php', 319, [...])
+ 2 APPPATH\Views\home\daftar.php(86): combo_enum('data_pelanggan', 'jenis_kelamin', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\daftar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/daftar', [], true)
+ 6 APPPATH\Controllers\keluarga\Daftar.php(40): view('home/daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Daftar->daftar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Daftar))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 21:19:49 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\all_helper.php on line 319.
+ 1 APPPATH\Helpers\all_helper.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\all_helper.php', 319, [...])
+ 2 APPPATH\Views\home\daftar.php(86): combo_enum('data_pelanggan', 'jenis_kelamin', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\daftar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/daftar', [], true)
+ 6 APPPATH\Controllers\keluarga\Daftar.php(40): view('home/daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Daftar->daftar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Daftar))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 21:19:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\all_helper.php on line 319.
+ 1 APPPATH\Helpers\all_helper.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\all_helper.php', 319, [...])
+ 2 APPPATH\Views\home\daftar.php(86): combo_enum('data_pelanggan', 'jenis_kelamin', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\daftar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/daftar', [], true)
+ 6 APPPATH\Controllers\keluarga\Daftar.php(40): view('home/daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Daftar->daftar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Daftar))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 21:20:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\all_helper.php on line 319.
+ 1 APPPATH\Helpers\all_helper.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\all_helper.php', 319, [...])
+ 2 APPPATH\Views\home\daftar.php(86): combo_enum('data_pelanggan', 'jenis_kelamin', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\daftar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/daftar', [], true)
+ 6 APPPATH\Controllers\keluarga\Daftar.php(35): view('home/daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\keluarga\Daftar->daftar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keluarga\Daftar))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
